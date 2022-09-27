@@ -7,18 +7,10 @@ import Project3 from './pages/Project3';
 import Project4 from './pages/Project4';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-import Mouse from './components/Mouse';
-import Navigation from './components/Navigation';
-import SocialNetwork from './components/SocialNetwork';
 
 const App = () => {
   return (
     <BrowserRouter>
-
-      <Mouse />
-      <Navigation />
-      <SocialNetwork />
-
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/projet-1' element={<Project1 />} />
