@@ -22,8 +22,6 @@ const Mouse = () => {
                 cursor.style.transition = '.3s ease-out'
                 cursor.classList.remove('hovered')
             })
-
-            console.log(link);
         })
     }, [])
 

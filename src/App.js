@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import Mouse from './components/Mouse';
 import Navigation from './components/Navigation';
+import SocialNetwork from './components/SocialNetwork';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
 
       <Mouse />
       <Navigation />
+      <SocialNetwork />
 
       <Routes>
         <Route path='/' element={<Home />} />
