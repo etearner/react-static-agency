@@ -37,29 +37,30 @@ const Contact = () => {
                     <div className="address">
                         <div className="content">
                             <h4>Adresse</h4>
-                            <p>12 rue du Parc</p>
-                            <p>91940 Les Ulys</p>
+                            <p>1 rue du Faubourg Saint-Honoré</p>
+                            <p>20096 Nwaarland</p>
+                            <p>République Fictive du GOAT</p>
                         </div>
                     </div>
                     <div className="phone">
                         <div className="content">
                             <h4>téléphone</h4>
-                            <CopyToClipboard text="0751169554" className='hover'>
-                                <p style={{ cursor: 'pointer' }} className='clipboard' onClick={() => alert('Téléphone copié !')}>07 51 16 95 54</p>
+                            <CopyToClipboard text="00 00 00 00 00" className='hover'>
+                                <p style={{ cursor: 'pointer' }} className='clipboard' onClick={() => alert('Téléphone copié !')}>00 00 00 00 00</p>
                             </CopyToClipboard>
                         </div>
                     </div>
                     <div className="email">
                         <div className="content">
                             <h4>Email</h4>
-                            <CopyToClipboard text="sfagency@example.com" className='hover'>
-                                <p style={{ cursor: 'pointer' }} className='clipboard' onClick={() => alert('Email copié !')}>sfagency@example.com</p>
+                            <CopyToClipboard text="etearner@gmail.com" className='hover'>
+                                <p style={{ cursor: 'pointer' }} className='clipboard' onClick={() => alert('Email copié !')}>etearner@gmail.com</p>
                             </CopyToClipboard>
                         </div>
                     </div>
                     <SocialNetwork />
                     <div className="credits">
-                        <p>Tuto de From Scratch  - {new Date().getFullYear()}</p>
+                        <p style={{ textAlign: 'right', marginRight: '20px' }}>Fièrement propulsé par <b>NEL Agency / 2.00.96</b> <br /> &#169; {new Date().getFullYear()}</p>
                     </div>
                 </div>
                 <Buttons left={'/projet-4'} />

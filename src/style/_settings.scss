@@ -1,7 +1,10 @@
 @font-face {
   font-family: "font-1";
-  src: url(../assets/fonts/Questrial-Regular.ttf);
+  //@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+  src: url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+  // src: url(../assets/fonts/Questrial-Regular.ttf);
 }
+
 @font-face {
   font-family: "font-2";
   src: url(../assets/fonts/Michroma-Regular.ttf);
@@ -11,8 +14,8 @@ $font-1: "font-1", sans-serif;
 $font-2: "font-2", serif;
 
 $color-1: #fafeff;
-$color-2: #00c1ec;
-$color-3: #e7f7fe;
+$color-2: #8e169e;
+$color-3: #f8d5eb;
 $color-4: rgb(141, 141, 141);
 $black: rgb(40, 40, 40);
 $red: rgb(253, 87, 87);
@@ -31,13 +34,16 @@ $red: rgb(253, 87, 87);
     background: $color-2;
   }
 }
-html { 
+
+html {
   scroll-behavior: unset;
 }
+
 a,
 a:visited {
   color: $color-4;
 }
+
 body {
   font-family: $font-1;
   height: 100vh;
@@ -45,15 +51,17 @@ body {
   color: $black;
   overflow: hidden;
 
-  @media screen and (max-width: 430px){
+  @media screen and (max-width: 430px) {
     position: relative;
     max-width: 100vw;
     overflow-y: initial;
   }
 }
+
 main {
   position: relative;
 }
+
 .button {
   background: $color-3;
   height: 55px;

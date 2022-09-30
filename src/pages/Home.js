@@ -44,7 +44,7 @@ const Home = () => {
                             right: 950,
                             top: -150,
                             bottom: 250
-                        }}>FS AGENCY</motion.h1>
+                        }}>NEL Agency</motion.h1>
 
                         <h2>
                             <DynamicText />
