@@ -38,13 +38,10 @@ const DynamicText = () => {
                         wordIndex++
                         setTimeout(loop, 1500)
                     }
-
                 }
-
             }, 80)
         }
         loop()
-
     }, [])
 
     return (
